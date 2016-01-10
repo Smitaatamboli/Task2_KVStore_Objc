@@ -15,6 +15,9 @@
 		9401B95D1C423BE200D1A1B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9401B95B1C423BE200D1A1B6 /* LaunchScreen.storyboard */; };
 		9401B9681C423BE200D1A1B6 /* Task2_KVStore_ObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9401B9671C423BE200D1A1B6 /* Task2_KVStore_ObjcTests.m */; };
 		9401B9731C423BE200D1A1B6 /* Task2_KVStore_ObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9401B9721C423BE200D1A1B6 /* Task2_KVStore_ObjcUITests.m */; };
+		9401B9811C423C9200D1A1B6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9401B9801C423C9200D1A1B6 /* libsqlite3.0.tbd */; };
+		9401B9841C4240F100D1A1B6 /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 9401B9831C4240F100D1A1B6 /* Contacts.m */; };
+		9401B9871C42435C00D1A1B6 /* AllContactTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9401B9861C42435C00D1A1B6 /* AllContactTableViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		9401B96E1C423BE200D1A1B6 /* Task2_KVStore_ObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Task2_KVStore_ObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9401B9721C423BE200D1A1B6 /* Task2_KVStore_ObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task2_KVStore_ObjcUITests.m; sourceTree = "<group>"; };
 		9401B9741C423BE200D1A1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9401B9801C423C9200D1A1B6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9401B9821C4240F100D1A1B6 /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		9401B9831C4240F100D1A1B6 /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
+		9401B9851C42435C00D1A1B6 /* AllContactTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllContactTableViewViewController.h; sourceTree = "<group>"; };
+		9401B9861C42435C00D1A1B6 /* AllContactTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllContactTableViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9401B9811C423C9200D1A1B6 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 		9401B9411C423BE200D1A1B6 = {
 			isa = PBXGroup;
 			children = (
+				9401B9801C423C9200D1A1B6 /* libsqlite3.0.tbd */,
 				9401B94C1C423BE200D1A1B6 /* Task2_KVStore_Objc */,
 				9401B9661C423BE200D1A1B6 /* Task2_KVStore_ObjcTests */,
 				9401B9711C423BE200D1A1B6 /* Task2_KVStore_ObjcUITests */,
@@ -105,6 +115,10 @@
 				9401B9511C423BE200D1A1B6 /* AppDelegate.m */,
 				9401B9531C423BE200D1A1B6 /* ViewController.h */,
 				9401B9541C423BE200D1A1B6 /* ViewController.m */,
+				9401B9821C4240F100D1A1B6 /* Contacts.h */,
+				9401B9831C4240F100D1A1B6 /* Contacts.m */,
+				9401B9851C42435C00D1A1B6 /* AllContactTableViewViewController.h */,
+				9401B9861C42435C00D1A1B6 /* AllContactTableViewViewController.m */,
 				9401B9561C423BE200D1A1B6 /* Main.storyboard */,
 				9401B9591C423BE200D1A1B6 /* Assets.xcassets */,
 				9401B95B1C423BE200D1A1B6 /* LaunchScreen.storyboard */,
@@ -270,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9401B9841C4240F100D1A1B6 /* Contacts.m in Sources */,
 				9401B9551C423BE200D1A1B6 /* ViewController.m in Sources */,
+				9401B9871C42435C00D1A1B6 /* AllContactTableViewViewController.m in Sources */,
 				9401B9521C423BE200D1A1B6 /* AppDelegate.m in Sources */,
 				9401B94F1C423BE200D1A1B6 /* main.m in Sources */,
 			);
@@ -412,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Task2_KVStore_Objc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cybage.IwatchDemo.Task2-KVStore-Objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Task2_KVStore_Objc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cybage.IwatchDemo.Task2-KVStore-Objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +514,7 @@
 				9401B9791C423BE200D1A1B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9401B97A1C423BE200D1A1B6 /* Build configuration list for PBXNativeTarget "Task2_KVStore_ObjcTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				9401B97C1C423BE200D1A1B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9401B97D1C423BE200D1A1B6 /* Build configuration list for PBXNativeTarget "Task2_KVStore_ObjcUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +532,7 @@
 				9401B97F1C423BE200D1A1B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
